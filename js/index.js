@@ -1,3 +1,4 @@
+/*
 // alert('Im Working. Im JS. Im Beautiful. Im worth it');
 console.log('Im Working. Im JS. Im Beautiful. Im worth it');
 // let, const, var
@@ -6,7 +7,7 @@ const a = 221;
 let b = a-5;
 //a=4;
 console.log(b, a);
-
+*/
 
 
 //const what = ???????
@@ -37,6 +38,7 @@ console.log(b, a);
 
 
 //두번째 정렬방법(object)
+/*
 const hwanInfo = {
   name:"Hwan",
   age:34,
@@ -53,11 +55,22 @@ const hwanInfo = {
   ]
 
 };
+*/
 
 //console.log(hwanInfo);
 //hwanInfo.name = "ChuChu";
 //console.log(hwanInfo.name);
-console.log(hwanInfo.favFood);
-
+//console.log(hwanInfo.favFood);
 
 //만약 DB에서 가져온 리스트라면 array 선택하고, 만약 데이터 합쳐서 만들어야 한다면 Object를 array안에 넣을 수 있다.
+
+
+
+
+//함수 만들기
+function sayHello(pizza, chicken){
+  console.log('Hello!', pizza, "너의 나이는",chicken, "이다");
+}
+
+sayHello("Hwani", 34);
+console.log("Hi");
