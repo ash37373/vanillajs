@@ -68,9 +68,69 @@ const hwanInfo = {
 
 
 //함수 만들기
-function sayHello(pizza, chicken){
-  console.log('Hello!', pizza, "너의 나이는",chicken, "이다");
+// function sayHello(pizza, chicken){
+//   console.log('Hello!', pizza, "너의 나이는",chicken, "이다");
+// }
+//
+// sayHello("Hwani", 34);
+// console.log("Hi");
+
+
+
+// function npay(name, id) {
+//   console.log("당신의 네이버페이 가맹점명은 ", name, " 이며, ID는 ", id, " 이다");
+// }
+//
+// npay("화니월드","np_test");
+
+
+// `` 의 사용법..
+// function sayHello(name, age){
+//   console.log(`Hello ${name} you are ${age} years old`);
+//   console.log(`wow it's fantastic ! ${name}`);
+// }
+//
+// sayHello("Hwan", 33);
+
+
+// function sayHello(name, age) {
+//   return `Hello ${name}. you are ${age} years old`;
+// }
+//
+// const greenHwan = sayHello("hwan",33);
+//
+// console.log(greenHwan);
+
+
+
+// const calculator = {
+//   plus: function(a, b){
+//     return a+b;
+//   }
+// }
+//
+// //                        console.log(greetHwan);
+// const plus = calculator.plus(5, 5);
+// console.log(plus);
+
+
+
+
+const calculator = {
+  plus: function(a, b){
+    return a+b;
+  },
+  minus: function(a, b){
+    return a-b;
+  },
+  gob: function(a, b){
+    return a*b;
+  },
+  nanum: function(a, b){
+    return a/b;
+  }
 }
 
-sayHello("Hwani", 34);
-console.log("Hi");
+const plus = calculator.plus(5,5);
+const minus = calculator.minus(5,4);
+console.log(`더하기:${plus}, 빼기:${minus}`);
