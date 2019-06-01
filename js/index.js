@@ -116,40 +116,21 @@ const hwanInfo = {
 
 
 
-// const calculator = {
-//   plus: function(a, b){
-//     return a+b;
-//   },
-//   minus: function(a, b){
-//     return a-b;
-//   },
-//   gob: function(a, b){
-//     return a*b;
-//   },
-//   nanum: function(a, b){
-//     return a/b;
-//   }
-// }
-//
-// const plus = calculator.plus(5,5);
-// const minus = calculator.minus(5,4);
-// console.log(`더하기:${plus}, 빼기:${minus}`);
-
-
-const calculator= {
-    plus:function(a,b){
-      return a+b;
-    },
-    minus:function(a,b){
-      return a-b;
-    },
-    gob:function(a,b){
-      return a*b;
-    },
-    nanum:function(a,b){
-      return a%b;
-    }
+const calculator = {
+  plus: function(a, b){
+    return a+b;
+  },
+  minus: function(a, b){
+    return a-b;
+  },
+  gob: function(a, b){
+    return a*b;
+  },
+  nanum: function(a, b){
+    return a/b;
+  }
 }
 
-const plus = calculator.plus(4,5);
-console.log(plus);
+const plus = calculator.plus(5,5);
+const minus = calculator.minus(5,4);
+console.log(`더하기:${plus}, 빼기:${minus}`);
